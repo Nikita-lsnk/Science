@@ -1,0 +1,37 @@
+.fixed {
+  background: linear-gradient(to left, #0166A0, #000000);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+  
+}
+
+header {
+  background-color: red;
+  /* position: relative; */
+}
+.Activate{
+  /* font-weight: 700 !important; */
+  color: #fff !important;
+  
+  /* background-color: #f0e319 !important; */
+}
+.bus{
+  /* font-weight: 700 !important; */
+  color: #292a2d !important;
+  
+  /* background-color: #f0e319 !important; */
+}
+@media screen and (max-width: 1120px) {
+  .active{
+    display: flex !important;
+    left: 0 !important;
+    background-color: #3256A4 !important;
+    height: 100vh !important;
+    /* opacity: 1 !important; */
+    margin: 0 !important;
+    padding-top: 50px;
+    
+  }
+}

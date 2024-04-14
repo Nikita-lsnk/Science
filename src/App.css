@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Verdana Pro Regular';
+  src:
+    url('Fonts/VerdanaPro-Regular.woff') format('woff'),
+    url('Fonts/VerdanaPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: wrap;
+  }
+
+  body {
+    font-family: 'Verdana Pro Regular';
+    margin: 0;
+}
