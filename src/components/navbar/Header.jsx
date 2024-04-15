@@ -97,7 +97,7 @@ const Header = () => {
                     ? "Activate"
                     : ""
                 }
-                to="/about"
+                
               >
                 About
               </NavLink>
