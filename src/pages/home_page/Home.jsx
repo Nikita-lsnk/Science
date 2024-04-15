@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import Advant from './Advant'
 import HomeService from './HomeService'
 import FocusWork from './FocusWork'
+import HomeProject from './HomeProject'
+import HomeWorker from './HomeWorker'
+import HomeFooter from './HomeFooter'
 
 const Home = () => {
   return (
@@ -23,6 +26,9 @@ const Home = () => {
       <Advant />
       <HomeService />
       <FocusWork />
+      <HomeProject/>
+      <HomeWorker/>
+      <HomeFooter/>
     </Container>
   )
 }

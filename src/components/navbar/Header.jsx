@@ -213,7 +213,7 @@ const Header = () => {
           </LogoBlock>
 
           <BurgerBtn onClick={() => setNav(!nav)}>
-            {nav ? (
+            {/* {nav ? (
               <AiOutlineClose
                 size={25}
                 color={"#ffffff"}
@@ -223,7 +223,7 @@ const Header = () => {
                 color={"#ffffff"}
                 size={25}
               />
-            )}
+            )} */}
           </BurgerBtn>
 
         </NavBlockContainer>
@@ -409,7 +409,7 @@ const NavBlockContainer = styled.div`
 const LogoBlock = styled.div`
   cursor: pointer;
   z-index: 100;
-  margin-left: -450px;
+  margin-left: -520px;
 `;
 
 const LogoImg = styled.img`
